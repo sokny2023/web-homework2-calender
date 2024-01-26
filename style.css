@@ -74,7 +74,7 @@ main > .outer > .wrapper > .img {
     margin: 5px 15px 10px 20px;
 }
 main > .outer > .wrapper > .img:hover {
-    background-image: url("./Image/cat1.jpg"); 
+    background-image: url("./Image/new-year.jpg"); 
     transition: 0.6s ease-in-out;
 }
 
@@ -150,93 +150,3 @@ main > .outer > .wrapper > .container > .calender > .active:hover{
     transition: 0.2s;
     cursor: pointer;
 }
-
-
-
-/*
-main > .outer > .wrapper > .container > .calender > .item:nth-child(1),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(2),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(3),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(4),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(5),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(6),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(7){
-    font-weight: 700;
-    background: transparent;
-    border: none;
-    border-radius: 20px;
-}
-main > .outer > .wrapper > .container > .calender > .item:nth-child(1),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(7),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(14),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(15),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(21),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(22),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(28),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(29),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(35),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(36),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(42),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(43){
-    color: rgb(228, 33, 72);
-}
-
-main > .outer > .wrapper > .container > .calender > .item:nth-child(1):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(7):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(14):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(15):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(21):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(22):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(28):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(29):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(35):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(36):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(42):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(43):hover {
-    border: 0.5px solid rgb(215, 72, 100);
-    box-shadow: 3px 5px 10px rgba(221, 129, 143, 0.623);
-    color: rgb(228, 33, 72);
-}
-
-
-main > .outer > .wrapper > .container > .calender > .item:nth-child(8),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(9),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(10),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(11),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(12),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(44),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(45),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(46),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(47),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(48),
-main > .outer > .wrapper > .container > .calender > .item:nth-child(49){
-    background-color: rgba(237, 237, 243, 0.382);
-    color: rgba(96, 96, 128, 0.527);
-    border: 0.5px solid rgba(209, 209, 219, 0.619);
-}
-
-main > .outer > .wrapper > .container > .calender > .item:nth-child(8):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(9):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(10):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(11):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(12):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(44):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(45):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(46):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(47):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(48):hover,
-main > .outer > .wrapper > .container > .calender > .item:nth-child(49):hover {
-    background-color: rgba(218, 218, 229, 0.412);
-    color: rgba(70, 70, 164, 0.679);
-    border: 0.5px solid rgba(194, 194, 210, 0.437);
-}
-
-
-main > .outer > .wrapper > .container > .calender > .item:hover{
-    color: rgb(38, 38, 82);
-    border-left: 0.5px solid rgba(73, 217, 107, 0.875);
-    border-bottom: 0.5px solid rgba(80, 80, 220, 0.868);
-    border-right: 0.5px solid rgba(215, 70, 70, 0.812);
-    border-top: 0.5px solid rgba(216, 82, 185, 0.899);
-    box-shadow: 3px 5px 10px rgba(101, 135, 199, 0.537);
-}*/
